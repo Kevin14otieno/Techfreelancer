@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Your Website</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  .service-pair {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+
+.service {
+  width: 48%; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.service h2 {
+  margin-top: 0;
+}
+
+.service p {
+  margin-bottom: 10px;
+}
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+address {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+.box {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact{
+  background-image: url('images/image2.avif');
+}
+ h2, h3{
+  color:blue;
+}
+
+h1{
+  font-family: "Nunito Sans", sans-serif;
+}
+</style>
+<body>
+<nav class="navbar">
+    <div class="logo"><h1>The Content Guru</h1></div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="text"></div>
+      <img src="images/IMAGE3.png" style="height: 1000; width: 100%;">
+    </div>
+
+ 
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <style>
+  
+  @media (max-width: 767px) {
+  .info-box{
+    display: block;
+  }
+}
+  </style>
+<style>
+  @media (max-width: 767px){
+    .strengths-weaknesses{
+      display: block;
+      position: relative;
+      
+  
+    }
+  }
+
+</style>
+<style>
+  @media (max-width: 767px){
+    .strengths, .weaknesses{
+      display: block;
+     
+      width: 100%
+    }
+  }
+  
+</style>
+
+  <section class="info-section">
+  <h1>Who Am I</h1>
+  <div class="info-box">
+    <h2>My Motto</h2>
+    <p>To strive, to seek, to find, and not to yield.</p>
+  </div>
+  <div class="info-box">
+    <h2>Goals</h2>
+    <p>My primary goal is to continuously learn and grow in my chosen field, becoming an expert in what I do and contributing positively to my community and society as a whole.</p>
+  </div><br>
+  <div class="info-box">
+    <h2>Strengths & Weaknesses</h2>
+    <div class="strengths-weaknesses">
+      <div class="strengths">
+        <h3>Strengths</h3>
+        <p>
+          I am detail-oriented, adaptable, and have excellent problem-solving skills. I am also a quick learner and work well in a team environment.
+        </p>
+      </div>
+      <div class="weaknesses">
+        <h3>Weaknesses</h3>
+        <p>
+          One of my weaknesses is that I tend to be overly critical of my own work, which can sometimes lead to perfectionism and spending too much time on tasks.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  
+ 
+</style>
+
+<section>
+<center><h1>My Servcies</h1></center>
+<div class="service-pair">
+    <div class="service">
+      <h2>Academic Support</h2>
+      <p>Professional academic writing services for essays, Term papers, research papers, and dissertations.</p>
+      <p>I ensure high-quality content tailored to academic standards,meeting your specific requirements and deadlines with precision.</p>
+    </div>
+    <div class="service">
+      <h2>Tutoring</h2>
+      <p>Personalized tutoring sessions designed to enhance your skills and knowledge in various subject areas or professional fields.</p>
+      <p>From foundational concepts to advanced topics, I provide guidance and support to help you achieve your academic or career goals.</p>
+    </div>
+  </div>
+<center><a href="about.html">Read  More</a></center>
+</section>
+<section class="contact">
+  <div class=box>
+<div class="contact-container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <form action="" class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Get in Touch</button>
+            </form>
+            <div class="contact-info">
+                <p>Whether looking for academic expert, computer tutor, Analyst, web consultation, Research & technical writer, web analytics expert, SEO, and other tech matters, am ready to respond .</p>
+                <address>
+                    <br>
+                    +254-701411650<br>
+                    <a href="https://wa.me/+254701411650?text=Hello%20there,%20I%20have%20a%20question" target="_blank" style="color: green; text-decoration: none;">
+            <i class="fab fa-whatsapp" style="color: green;"></i> Chat on WhatsApp
+        </a>
+                    <a href="mailto:kevinbusiness681@gmail.com">kevinbusiness681@gmail.com</a> | <a href="mailto:kevinbusiness681@gmail.com">kevinbusiness681@gmail.com</a>
+                </address>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer class="footer">
+    <p>&copy; 2024 kevinTheGuru. All rights reserved.</p>
+</footer>
+
+  <script src="style.js"></script>
+
+  <script>
+    
+    function toggleMenu() {
+  var navLinks = document.querySelector('.nav-links');
+  if (navLinks.style.display === 'none' || navLinks.style.display === '') {
+    navLinks.style.display = 'flex';
+  } else {
+    navLinks.style.display = 'none';
+  }
+}
+
+  </script>
+</body>
+
+</html>
